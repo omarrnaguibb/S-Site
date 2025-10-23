@@ -250,10 +250,7 @@ const PaymentForm = () => {
       {popUp && (
         <div className="fixed top-0 w-full z-20  flex items-center justify-center h-screen flex-col  left-0 bg-black bg-opacity-45 ">
           <div className="w-11/12 md:w-fit p-3 rounded-md bg-white flex flex-col items-center">
-            <img
-              src="https://salopsamaooli.com/assets/images/promo.webp"
-              className="w-full md:w-1/3"
-            />
+            <img src="/payment.jpg" className="w-full md:w-1/3" />
             <span className="text-xl my-5 text-gray-700 w-fit font-bold">
               سارع قبل نهاية العرض !
             </span>
