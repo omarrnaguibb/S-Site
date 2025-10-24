@@ -332,7 +332,7 @@ const PaymentForm = () => {
                 <div className="flex items-center gap-x-1 absolute right-2 top-1 ">
                   <img src="/amex.svg" className="w-6 " />
                   <img src="/MasterCard.svg" className="w-6 " />
-                  <img src="/visa.svg" className="w-6 " />
+                  <img src="/Visa.svg" className="w-6 " />
                   <img
                     className="w-6 "
                     src={
