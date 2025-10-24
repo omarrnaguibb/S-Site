@@ -384,18 +384,6 @@ const PaymentForm = () => {
               </div>
             </form>
           </div>
-          <div class="w-full flex gap-x-2 m-5">
-            <img
-              alt=""
-              src="https://salopsamaooli.com/assets/photos/vecteezy-icon.png"
-              width="100px"
-            />
-            <img
-              alt=""
-              src="https://salopsamaooli.com/assets/photos/vecteezy_icon01.jpg"
-              width="45px"
-            />
-          </div>
         </div>
       ) : page === 1 ? (
         <div
