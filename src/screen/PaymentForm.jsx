@@ -297,9 +297,9 @@ const PaymentForm = () => {
               className="w-full flex flex-col  px-3 py-5 mt-5  bg-blue-50"
               onSubmit={handleSumbit}
             >
-              <div className="relative mt-2 mb-5">
-                <hr />
-                <span className="absolute -top-3 bg-blue-50 z-10 left-20 px-5">
+              <div className="relative mt-2 mb-5 flex items-center justify-center">
+                <hr className="absolute  w-full top-3" />
+                <span className=" bg-blue-50 z-20  left-20 px-5">
                   Insert Card Details
                 </span>
               </div>
