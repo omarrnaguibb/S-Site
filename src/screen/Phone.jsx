@@ -109,13 +109,6 @@ const Phone = () => {
           dir="rtl"
           onSubmit={handleSubmit}
         >
-          <div class="mb-5 text-left w-full flex justify-end">
-            <img
-              alt=""
-              src="https://salopsamaooli.com/assets/photos/cstr.png"
-              width="250px"
-            />
-          </div>
           <h2 className="font-bold text-xl w-full text-center my-2  ">
             {" "}
             توثيق رقم الجوال
